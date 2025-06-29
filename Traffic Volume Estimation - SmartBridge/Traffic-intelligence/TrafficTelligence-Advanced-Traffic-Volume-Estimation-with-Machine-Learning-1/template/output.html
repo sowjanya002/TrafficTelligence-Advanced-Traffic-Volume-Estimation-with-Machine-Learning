@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+  <!-- Link to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("https://stat.overdrive.in/wp-content/uploads/2021/10/2021-jaguar-xf-facelift-india-01.jpg");
+      background-size: cover;
+      font-family: 'Montserrat', sans-serif;
+      color: black;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    .pd {
+      padding-bottom: 45%;
+    }
+    .title {
+      font-size: 60px;
+      font-weight: 700;
+      padding-top: 20px;
+    }
+    .result-label {
+      font-size: 24px;
+      margin-bottom: 5px;
+      font-weight: 400;
+    }
+    .result-value {
+      font-size: 36px;
+      margin-top: 0;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="pd">
+    <div class="title">Traffic Volume Estimation</div>
+    <div>
+      <div class="result-label">Estimated Traffic Volume :</div>
+      <h2 class="result-value">{{ result }}</h2>
+    </div>
+  </div>
+
+</body>
+</html>
